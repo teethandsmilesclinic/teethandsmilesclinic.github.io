@@ -109,7 +109,8 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    /* color: #fff; */
+    color: rgb(19, 83, 12)
 }
 
 .navbar-custom .nav li.active {
