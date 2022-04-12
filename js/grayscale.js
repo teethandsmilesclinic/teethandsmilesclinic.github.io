@@ -47,7 +47,7 @@ function init() {
         zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(9.917145019426918, 76.36422490210542), // Udayamperoor
+        center: new google.maps.LatLng(9.914300164136328, 76.36370680902226), // Udayamperoor
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -175,7 +175,7 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(9.917145019426918, 76.36422490210542);
+    var myLatLng = new google.maps.LatLng(9.914300164136328, 76.36370680902226);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
